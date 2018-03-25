@@ -5,23 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nicholas Moschos Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="shortcut icon" type="png" href="images/favicon.png">
 </head>
 <link rel="stylesheet" href="portfolio.css">
+<link rel="stylesheet" href="formatting.css">
+<link rel="stylesheet" href="timeline.css">
 <body>
 
 
 <!-- Create a banner for the web page -->
 <figure>
-    <img class="header" src="images/header1.jpg" alt="Airport Escalator">
+    <img class="header" src="images_web/header1-min.jpg" alt="Airport Escalator">
     <figcaption>Nicholas Moschos</figcaption>
 </figure>
 <!-- Create a navbar with 3 tabs -->
 
   <nav class="menu">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#links">Links</a></li>
+      
+      
     </ul>
   </nav>
 
@@ -29,7 +36,7 @@
   <!-- Create a linear timeline for work
 and study -->
 
-<h1 class="subject_headings">Work and study</h1>
+<h1 class="subject_headings" id="home">Work and study</h1>
 <br><br><br>
 
 <div class="timeline">
@@ -81,47 +88,61 @@ and study -->
 
 <!-- List hobbies and interests -->
 
-<h1 class="subject_headings">Hobbies and Interests</h1>
+<h1 class="subject_headings" id="interests">Hobbies and Interests</h1>
+<br><br>
     <div class="hobbies">
-        <img src="images/rock_climbing.jpg" alt="Rock Climbing Emoji">
-        <img src="images/book.jpg" alt="Book Emoji">
-        <img src="images/surf.jpg" alt="Surfing Emoji">
-        <img src="images/guitar.jpg" alt="Guitar Emoji">
+        <img src="images_web/rock_climbing-min.jpg" alt="Rock Climbing Emoji">
+        <img src="images_web/book-min.jpg" alt="Book Emoji">
+        <img src="images_web/surf.jpg" alt="Surfing Emoji">
+        <img src="images_web/guitar-min.jpg" alt="Guitar Emoji">
     </div>
 
-    <!-- Add portfolio of work -->
+    <!-- Add skills section with icons indicating proficiencies -->
+
+    <br><br><br><br>
+    <h1 class="subject_headings" id="skills">Skills</h1>
+    <br><br>
+    <div class="hobbies">
+        <img src="images_web/ruby.png" alt="Ruby Logo">
+        <img src="images_web/rails.png" alt="Rails Logo">
+        <img src="images_web/html.png" alt="Html Logo">
+        <img src="images_web/css.png" alt="Css Logo">
+        <img src="images_web/github.png" alt="Github Logo">
+    </div>
+
+    <br><br><br><br>
+
+        <!-- Add portfolio of work -->
     <!-- Terminal app, splash page and portfolio project -->
     <!-- Add images with link to github code -->
-    <br><br><br><br>
-    <h1 class="subject_headings">Skills</h1>
-    <br>
-    <div class="hobbies">
-        <img src="images/ruby.png" alt="Ruby Logo">
-        <img src="images/rails.png" alt="Rails Logo">
-        <img src="images/html.png" alt="Html Logo">
-        <img src="images/css.png" alt="Css Logo">
-        <img src="images/github.png" alt="Github Logo">
-    </div>
-
-    <br><br><br><br>
-    <h1 class="subject_headings">Portfolio</h1>
+    <h1 class="subject_headings" id="portfolio">Portfolio</h1>
     <br>
     <div class="portfolio">
-        <a href="https://github.com/Nicko229/randomatic_briefer">
-        <img src="images/terminal_app1.png" alt="Command Line">
+        <a href="https://github.com/Nicko229/randomatic_briefer"
+        target="_blank">
+        <img src="images_web/terminal_app1.png" alt="Command Line">
     </a>
-        <img src="images/splash_page.jpg" alt="Website Home Page">
+        <a href="https://github.com/Nicko229/rip-curl-site-mockup"
+        target="_blank">
+        <img src="images_web/splash_page-min.jpg" alt="Website Home Page">
+    </a>
+        <a href="https://github.com/Nicko229/portfolio" 
+        target="_blank">
         <img src="images/portfolio.png" alt="Portfolio Home Page">
+    </a>
     </div>
 
+<!-- Add links to linkedin and github accounts -->
+
     <br><br><br><br>
-    <h1 class="subject_headings">Links</h1>
+    <h1 class="subject_headings" id="links">Links</h1>
     <br>
     <div class="hobbies">
-        <a href="https://www.linkedin.com/in/nikolaos-moschos-7817a4107/">
+        <a href="https://www.linkedin.com/in/nikolaos-moschos-7817a4107/"
+        target="_blank">
         <img src="images/linkedin.png" alt="Linkedin Logo">
     </a>
-        <a href="https://github.com/Nicko229">
+        <a href="https://github.com/Nicko229" target="_blank">
         <img src="images/github1.png" alt="Github Logo">
     </a>
     </div>

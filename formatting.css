@@ -1,0 +1,55 @@
+/* Format subject headings */
+
+.subject_headings {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Format header */
+
+.header {
+    width: 100%;
+}
+/* Create a gradient background color light grey/light blue */
+
+body {
+    background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(#D8D9DB, #61B1B6);
+    margin: 0;
+}
+
+/* Format hobbies and interests images */
+
+.hobbies {
+    padding-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbies img {
+    margin-left: 6%;
+    margin-right: 4%;
+    display: inline-block;
+    height: auto;
+    width: 200px;
+    text-align: center;
+    flex-basis: <length> | auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+
+/* Format Portfolio Images */
+
+.portfolio img {
+    margin-left: 6%;
+    margin-right: 4%;
+    display: inline-block;
+    height: 360px;
+    width: 320px;
+    text-align: center;
+    flex-basis: <length> | auto;
+    padding-top: 5%;
+}
