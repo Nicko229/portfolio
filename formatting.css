@@ -15,7 +15,7 @@
 body {
     background-color: lightgrey;
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(#D8D9DB, #61B1B6);
+    background: white;
     margin: 0;
 }
 
@@ -23,9 +23,9 @@ body {
 
 .hobbies {
     padding-right: 5%;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .hobbies img {
@@ -52,4 +52,10 @@ body {
     text-align: center;
     flex-basis: <length> | auto;
     padding-top: 5%;
+}
+
+.link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
