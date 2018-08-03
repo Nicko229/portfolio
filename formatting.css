@@ -35,7 +35,7 @@ body {
     height: auto;
     width: 200px;
     text-align: center;
-    flex-basis: <length> | auto;
+    flex-basis:  auto;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 2%;
@@ -50,7 +50,7 @@ body {
     height: 360px;
     width: 320px;
     text-align: center;
-    flex-basis: <length> | auto;
+    flex-basis: auto;
     padding-top: 5%;
 }
 
